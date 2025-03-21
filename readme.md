@@ -50,19 +50,6 @@
 The trading strategy is based on the **S&P 500 Index (SPX)** and its **11 sector ETFs**, which represent different industries within the market. These sector ETFs serve as the underlying assets for constructing the correlation arbitrage trade. The sectors and their respective weights are as follows:
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
