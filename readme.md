@@ -2,8 +2,8 @@
 
 - [Introduce Correlation](#introduce-correlation)
 - [Selection of Trading Assets](#selection-of-trading-assets)
-- [Strategy Design & Execution](#strategy-design-execution)
-- [Performance Analysis & Insights](#performance-analysis-insights)
+- [Strategy Design & Execution](#strategy-design--execution)
+- [Performance Analysis & Insights](#performance-analysis--insights)
 
 ## Introduce Correlation
 - Pearson correlation coefficient:
