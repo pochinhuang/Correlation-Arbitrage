@@ -52,7 +52,7 @@ The trading strategy is based on the **S&P 500 Index (SPX)** and its **11 sector
   <thead>
     <tr style="text-align: right;">
       <th>Sector</th>
-      <th>Weight</th>
+      <th>Weight %</th>
     </tr>
   </thead>
   <tbody>
