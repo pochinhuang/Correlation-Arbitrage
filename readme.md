@@ -6,7 +6,6 @@
 - [Performance Analysis & Insights](#performance-analysis-insights)
 
 ## Introduce Correlation
-
 - Pearson correlation coefficient:
     $$\rho_{X, Y} = \dfrac{\text{Cov}(X, Y)}{\sigma_{X}\sigma_{Y}}$$
 
@@ -46,7 +45,6 @@
     $$\rho = \dfrac{\sigma_{index}^{2} - \sum w_{i}^{2} \sigma_{sector}^{2}}{\sum_{i} \sum_{j \neq i} w_{i}w_{j} \sigma_{i}\sigma_{j}}$$
 
 ## Selection of Trading Assets
-
 The trading strategy is based on the **S&P 500 Index (SPX)** and its **11 sector ETFs**, which represent different industries within the market. These sector ETFs serve as the underlying assets for constructing the correlation arbitrage trade. The sectors and their respective weights are as follows:
 
 <div>
@@ -159,6 +157,7 @@ This strategy exploits the dispersion effect, where the volatility of individual
 - Why use Straddles? $\rightarrow$ They allow pure volatility exposure without a directional bias.
 - Trading Logic? $\rightarrow$ Short SPX Straddle bets on lower index volatility, while Long Sector Straddles capture dispersion effects.
 - Portfolio Construction & Hedging? $\rightarrow$ Positions are sized based on sector weightings, and delta hedging ensures the trade remains a volatility arbitrage rather than a directional bet.
+
 
 ## Performance Analysis & Insights
 
